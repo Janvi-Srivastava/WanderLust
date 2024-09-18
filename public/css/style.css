@@ -1,0 +1,171 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+/* navbar */
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+.fa-compass {
+  color: #fe434d;
+  font-size: 2rem;
+}
+.nav-link {
+  color: #222222 !important;
+}
+
+/* Footer */
+.f-info {
+  height: 8rem;
+  background-color: #ebebeb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+  text-align: center;
+}
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.f-info-socials i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+/* Card */
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-image {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text p {
+  font-weight: 400 !important;
+}
+.listing-link {
+  text-decoration: none;
+}
+
+/* Card-Effect */
+.card-img-overlay {
+  opacity: 0;
+}
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+
+/* New Page */
+.add-btn {
+  background-color: #fe434d !important;
+  border: none !important;
+}
+.add-btn:hover {
+  color: black !important;
+}
+
+/* Edit Page */
+.edit-btn {
+  background-color: #fe434d !important;
+  border: none !important;
+}
+.edit-btn:hover {
+  color: black !important;
+}
+
+/* Show page */
+.show-img {
+  border-radius: 1rem !important;
+  height: 40vh;
+}
+.btns {
+  display: flex;
+}
+.show-card {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* MAP */
+#map {
+  height: 400px;
+  width: 80vh;
+  background-color: rgb(235, 226, 226);
+}
+@media (max-width: 900px) {
+  #map {
+    height: 300px;
+    width: 50vh;
+  }
+}
+
+/* Scroll Bar */
+
+#filters {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+}
+.filter {
+  text-align: center;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  opacity: 0.7;
+}
+.filter:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.filter p {
+  font-size: 0.8rem;
+}
+.tax-info {
+  display: none;
+}
+.tax-toggle {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  height: 3.25rem;
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+/* pay btn */
+.pay {
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 2rem;
+  border-color: #fe434d;
+  padding: 2rem;
+}
